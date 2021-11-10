@@ -42,6 +42,11 @@ header h2{
     color: black;
 }
 .nav ul li a:hover {
+    background-color: rgb(158, 115, 233);
+    color: white;
+}
+
+.nav ul li a.selected {
     background-color: rgb(115, 48, 230);
     color: white;
 }
