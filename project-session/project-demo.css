@@ -1,5 +1,6 @@
 body {
     font-family:times,arial,serif;
+     background-color:lavender;
 }
 header {
     background-color: rgb(235, 66, 150);
@@ -50,32 +51,39 @@ header h2{
     background-color: rgb(115, 48, 230);
     color: white;
 }
-.content{
+section.content{
     padding:0 10px;
     border:2px solid rgb(235, 66, 150);
     height:650px;
     overflow-y: auto;
     
 }
-.content h1 {
+section.content h1 {
     text-indent: 20px;
     margin: 5px 0 0 0;
     font-size:1.6em;
     color: rgb(140, 27, 130);
 }
-.content h2 {
+section.content h2 {
     text-indent: 10px;
     margin: 5px 0 0 0;
     font-size:1.2em;
     color: rgb(140, 27, 130);
 }
-.content img {
+section.content img {
     float:right;
     margin:10px;
     box-shadow: 2px 3px 5px 1px;
     object-fit:fill;
 }
-.footer{
+article.story1{
+    background-color: lemonchiffon;
+}
+article.story2{
+    background-color:azure;
+}
+footer{
+    font-size: small;
     padding:0 10px;
     color:rgb(140, 27, 130);
 }
