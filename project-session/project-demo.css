@@ -76,12 +76,16 @@ section.content img {
     box-shadow: 2px 3px 5px 1px;
     object-fit:fill;
 }
+article{
+    overflow: auto;
+}
 article.story1{
     background-color: lemonchiffon;
 }
 article.story2{
-    background-color:azure;
+    background-color:azure;  
 }
+
 footer{
     font-size: small;
     padding:0 10px;
